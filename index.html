@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html ng-app="addyFunkApp">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>addy funk</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Sacramento' rel='stylesheet' type='text/css'>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.min.js"></script> 
+	<script src="js/index.js"></script>
+</head>
+
+
+<body>
+<section ng-controller="profileController">
+	<!-- <div ng-repeat="detail in details" style="float: right"> -->
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+    
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	    </div>
+
+	  <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse">
+	      <ul class="nav navbar-nav">
+				<ul id="header-buttons" class="header-list-buttons">
+					<li><a href="#" ng-click="show = 1">about</a></li>
+					<li><a href="#" ng-click="show = 2">skills</a></li>
+					<li><a href="#" ng-click="show = 3">portfolio</a></li>
+					<li><a href="#" ng-click="show = 4">contact</a></li>
+				</ul>
+			
+	      </ul>
+   		</div><!-- /.navbar-collapse -->
+  	  </div><!-- /.container-fluid -->
+	</nav>
+
+		
+<h1 id="header">addy funk</h1>
+
+			<div class="container-fluid">
+				<div class="row">
+					<div ng-show="show==1" class="portfolio-details col-lg-12" id="about">
+						<p>	detail.about = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus eget libero nec mollis. Vivamus consectetur nisi malesuada, vestibulum nisi a, aliquet est."</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="container-fluid">
+				<div class="row">
+					<div ng-show="show==2" class="portfolio-details col-lg-12" id="about">
+						<p>	detail.skills = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus eget libero nec mollis. Vivamus consectetur nisi malesuada, vestibulum nisi a, aliquet est."</p>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid">
+				<div class="row">
+					<div ng-show="show==3" class="portfolio-details col-lg-12" id="about">
+						<p>	detail.portfolio = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus eget libero nec mollis. Vivamus consectetur nisi malesuada, vestibulum nisi a, aliquet est."</p>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid">
+				<div class="row">
+					<div ng-show="show==4" class="portfolio-details col-lg-12" id="about">
+						<p>	detail.contact = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus eget libero nec mollis. Vivamus consectetur nisi malesuada, vestibulum nisi a, aliquet est."</p>
+					</div>
+				</div>
+			</div>
+
+</div>
+</section>
+
+</body>
+</html>
+

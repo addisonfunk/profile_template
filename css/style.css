@@ -1,0 +1,32 @@
+body {
+	background-color: gray;
+}
+
+ul .header-list-buttons {
+	width: 100%;
+}
+
+.header-list-buttons {
+	float: right;
+	list-style-type: none;
+} 
+
+.header-list-buttons a {
+	color: black;
+}
+
+.header-list-buttons li {
+	display: inline; 
+	padding: 1%;
+	float: right;
+}
+
+.nav {
+	width: 100%;
+}
+
+#header {
+	font-family: 'Sacramento', cursive;
+	text-align: center;
+	color: white;
+}
