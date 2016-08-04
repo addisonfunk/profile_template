@@ -56,14 +56,29 @@
 		<h2 id="header2">WEB DEVELOPER</h2>
 	</div>
 
+<!--  ABOUT SECTION -->
 			<div class="container-fluid">
 				<div class="row">
 					<div ng-show="show==1" class="portfolio-details col-lg-12" id="about">
-						<p>	detail.about = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus eget libero nec mollis. Vivamus consectetur nisi malesuada, vestibulum nisi a, aliquet est."</p>
+						
+					<div class="about-topic col-lg-4 col-md-4 col-sm-12">
+						<h1>developer</h1><br>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus eget libero nec mollis.</p>
+					</div>
+					<div class="about-topic col-lg-4 col-md-4 col-sm-12">
+						<h1>hobbies</h1><br>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus eget libero nec mollis.</p>
+					</div>
+					<div class="about-topic col-lg-4 col-md-4 col-sm-12">
+						<h1>interests</h1><br>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus eget libero nec mollis.</p>
+					</div>
+
 					</div>
 				</div>
 			</div>
 
+<!--  SKILLS SECTION -->
 			<div class="container-fluid">
 				<div class="row">
 					<div ng-show="show==2" class="portfolio-details col-lg-12" id="skills">
@@ -71,6 +86,8 @@
 					</div>
 				</div>
 			</div>
+
+<!--  PORTFOLIO SECTION -->
 			<div class="container-fluid">
 				<div class="row">
 					<div ng-show="show==3" class="portfolio-details col-lg-12" id="portfolio">
@@ -78,16 +95,35 @@
 					</div>
 				</div>
 			</div>
+
+<!--  CONTACT SECTION -->
 			<div class="container-fluid">
 				<div class="row">
 					<div ng-show="show==4" class="portfolio-details col-lg-12" id="contact">
-						<p>	detail.contact = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus eget libero nec mollis. Vivamus consectetur nisi malesuada, vestibulum nisi a, aliquet est."</p>
+						<h1 id="contact-p">let's get in touch!</h1>
+						<ul class="contact-links">
+							<li id="contact-link">email: funk.addison@gmail.com</li>
+							<li id="contact-link">github:</li>
+							<li id="contact-link">blog:</li>
+						</ul>
+						<br>
+						
 					</div>
 				</div>
 			</div>
 
 </div>
 </section>
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="footer col-lg-12">
+			<p id="footer-p">website designed by 
+				<a href="" id="name">addison funk</a> using: <br> html5, angularjs, css, javascript, bootstrap
+			</p>
+		</div>
+	</div>
+</div>
 
 </body>
 </html>

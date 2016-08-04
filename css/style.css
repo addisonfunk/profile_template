@@ -2,6 +2,8 @@ body {
 	background-color: white;
 }
 
+/*-------HEADER AND NAV*/
+
 ul .header-list-buttons {
 	width: 100%;
 }
@@ -54,6 +56,60 @@ ul .header-list-buttons {
 	height: 400px;
 }
 
+/*----------ABOUT SECTION*/
+.about-topic {
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
+	color: gray;
+}
+
+/*----------SKILLS SECTION*/
 
 
+
+/*----------PORTFOLIO SECTION*/
+
+
+
+/*----------CONTACT SECTION*/
+#contact-p {
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
+	color: gray;
+}
+
+.contact-links {
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
+	color: gray;
+}
+
+#contact-link li {
+	text-decoration: none;
+	vertical-align: left;
+}
+
+
+
+/*----------FOOTER SECTION*/
+.footer {
+	font-family: 'Open Sans Condensed', sans-serif;
+	background-color: gray;
+	height: 150px;
+	color: white;
+}
+
+.col-lg-12 {
+	padding: 0px;
+}
+
+#footer-p {
+	padding-top: 7%;
+	text-align: center; 
+}
+
+#name {
+	text-decoration: none;
+	color: white;
+}
 
