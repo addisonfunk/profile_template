@@ -107,6 +107,34 @@ ul .header-list-buttons {
   }
 }
 
+#techFullOne {
+	height: 400px;
+	background-color: #d9d9d9;
+	color: white;
+	font-size: 2em;
+	text-align: center;
+	padding: 7%;
+	padding-top: 13%;
+	margin-top: 4%;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#tech-p {
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
+	color: gray;
+	font-size: 1.4em;
+}
+
+#tech-list {
+	padding: 0px;
+}
+
+#tech-list li {
+	text-decoration: none;
+	list-style-type: none;
+}
+
 /*----------PORTFOLIO SECTION*/
 
 
